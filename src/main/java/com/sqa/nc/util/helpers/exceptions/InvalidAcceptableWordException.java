@@ -1,5 +1,5 @@
 /**
- *   File Name: InvalidAcceptableCharException.java<br>
+ *   File Name: InvalidAcceptableWordException.java<br>
  *
  *   Cui, Nicolas<br>
  *   Java Boot Camp Exercise<br>
@@ -8,11 +8,11 @@
  *   
  */
 
-package com.sqa.nc.util.helpers;
+package com.sqa.nc.util.helpers.exceptions;
 
 
 /**
- * InvalidAcceptableCharException //ADDD (description of class)
+ * InvalidAcceptableWordException //ADDD (description of class)
  * <p>
  * //ADDD (description of core fields)
  * <p>
@@ -23,5 +23,5 @@ package com.sqa.nc.util.helpers;
  * @since       1.0
  *
  */
-public class InvalidAcceptableCharException extends Exception {
+public class InvalidAcceptableWordException extends Exception {
 }

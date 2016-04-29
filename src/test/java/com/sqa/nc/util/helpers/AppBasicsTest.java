@@ -27,50 +27,29 @@ public class AppBasicsTest {
 	static String appName = "NC Test";
 	static String username;
 
-	/**
-	 * @throws java.lang.Exception
-	 */
 	@BeforeClass
 	public static void setUpBeforeClass () throws Exception {
 	}
 
-	/**
-	 * @throws java.lang.Exception
-	 */
 	@AfterClass
 	public static void tearDownAfterClass () throws Exception {
 	}
 
-	/**
-	 * @throws java.lang.Exception
-	 */
 	@BeforeMethod
 	public void setUp () throws Exception {
 	}
 
-	/**
-	 * @throws java.lang.Exception
-	 */
 	@AfterMethod
 	public void tearDown () throws Exception {
 	}
 
-	/**
-	 * Test method for
-	 * {@link com.sqa.nc.util.helpers.AppBasics#farewellUser(java.lang.String, java.lang.String)}
-	 * .
-	 */
-	@Test (enabled = false)
+
+	@Test (enabled = false, priority = 100)
 	public void testFarewellUser () {
 		AppBasics.farewellUser(username, appName);
 	}
 
-	/**
-	 * Test method for
-	 * {@link com.sqa.nc.util.helpers.AppBasics#welcomeUserAndGetUsername(java.lang.String)}
-	 * .
-	 */
-	@Test
+	@Test (priority = 1)
 	public void testWelcomeUser () {
 		username = AppBasics.welcomeUserAndGetUsername(appName);
 	}

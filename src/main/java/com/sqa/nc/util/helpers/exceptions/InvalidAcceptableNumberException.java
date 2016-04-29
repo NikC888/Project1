@@ -8,7 +8,7 @@
  *   
  */
 
-package com.sqa.nc.util.helpers;
+package com.sqa.nc.util.helpers.exceptions;
 
 
 /**
